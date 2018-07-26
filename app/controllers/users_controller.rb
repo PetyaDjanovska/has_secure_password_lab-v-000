@@ -4,6 +4,7 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+<<<<<<< HEAD
   def create
     if params[:user][:password] == params[:user][:password_confirmation]
       @user = User.create(user_params)
@@ -31,4 +32,6 @@ private
   end
 
 
+=======
+>>>>>>> a4dd64f4dd062c340b44f871fc5eab85fd1bbb32
 end
